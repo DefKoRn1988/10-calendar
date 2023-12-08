@@ -53,13 +53,6 @@ export const LoginPage = () => {
             email: registerEmail,
             password: registerPassword,
         });
-
-        console.log({
-            registerName,
-            registerEmail,
-            registerPassword,
-            registerPassword2,
-        });
     };
 
     useEffect(() => {
